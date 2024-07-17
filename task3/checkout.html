@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <div class="container">
+                <div class="order-info">
+                    <h2>Order Summary</h2>
+                    <img src="images/pp11.jpg" class="full-width"><br>
+                    <p>Product 1</p><br>
+                    <h3 class="price">$49.00</h3>
+                </div>
+                <div class="checkout-form">
+                    <h2>Checkout</h2><br>
+                    <form action="payment.html" target="_blank">
+                        <div class="card-selection">
+                            <p>Select Card Type:</p><br><br><br><br>
+                            <select id="card-type">
+                            <option value="american-express">American Express</option>
+                            <option value="visa">Visa Card</option>
+                            <option value="paypal">PayPal</option>
+                            <option value="Rupay">Rupay</option>
+                            </select>
+                        </div>
+                        <input type="text" id="card-number" placeholder="Card Number" required>
+                        <input type="text" id="card-name" placeholder="Cardholder Name" required>
+                        <input type="text" id="expiry-date" placeholder="Expiry Date" required>
+                        <input type="text" id="cvv" placeholder="CVV" required>
+                        <button type="submit">Pay</button><br><br>
+                        <hr><br><br>
+                        <h4>Pay via </h3><br>
+                        <a href="payment.html"><img src="images/phonepe.png"></a>
+                        <a href="payment.html"><img src="images/gpay.png"></a>
+                        <a href="payment.html"><img src="images/paytm.png"></a>
+                        <a href="payment.html"><img src="images/bhim.png"></a>
+                    </form>
+                </div>
+                
+        </div>
+    
+</body>
+</html>

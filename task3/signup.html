@@ -1,0 +1,53 @@
+<!-- shop.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothes Store - Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section (Include previous header code here) -->
+
+    <!-- Your Shop Section Content Here -->
+    <section class="signin">
+        <div class="signin-form">
+            <h2>Register</h2>
+            <form id="signInForm">
+                <div class="form-group">
+                    <lable for="text">First Name</lable>
+                    <input type="text" placeholder="First Name" required>
+                </div>
+                <div class="form-group">
+                    <lable for="text">Last Name</lable>
+                    <input type="text" placeholder="Last Name" required>
+                </div>
+                <div>
+                    <label>Gender</label><br><br>
+                    <label>
+                        <input type="radio" name="option" value="option1">Male
+                    </label>
+                    <label>
+                        <input type="radio" name="option" value="option2">Female
+                    </label>
+                </div><br><br>
+                <div class="form-group">
+                    <label for="number">Contact Number</label>
+                    <input type="number" maxlength="10" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="btn">Register</button>
+            </form>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
